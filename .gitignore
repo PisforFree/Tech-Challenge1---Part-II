@@ -1,0 +1,18 @@
+﻿# Ignore Terraform directories and files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore AWS credentials or secrets
+*.pem
+*.key
+*.env
+*.secret.txt
+
+# Ignore provider binaries
+*.exe
+
+# Ignore VSCode folders and OS junk
+.vscode/
+.DS_Store
+Thumbs.db
